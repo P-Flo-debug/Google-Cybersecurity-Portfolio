@@ -1,7 +1,12 @@
 # Case Study: Internal IT Audit - Botium Toys
 
-## 🎯 Project Overview
-I conducted an internal IT audit for **Botium Toys**, a growing retail company. The audit's goal was to evaluate the current security posture, identify risks to critical assets, and ensure compliance with **PCI DSS** and **GDPR**.
+## 🎯 Scope & Goals
+The scope of this audit included the entire security program at **Botium Toys**, covering employee equipment (end-user devices, workstations), the internal network, and all systems including e-commerce and inventory management.
+
+**The goals of the audit were to:**
+* Assess existing assets to determine current vulnerabilities.
+* Complete a controls and compliance checklist.
+* Identify necessary security best practices to improve the company’s overall security posture.
 
 ## 📋 Audit Findings: Controls Assessment
 Using the **NIST Cybersecurity Framework (CSF)**, I identified several critical gaps in the company's existing controls:
@@ -15,8 +20,6 @@ Using the **NIST Cybersecurity Framework (CSF)**, I identified several critical 
 | **Firewall** | ✅ Yes | Correctly configured to block unwanted traffic. |
 | **Physical Security** | ✅ Yes | Sufficient locks, CCTV, and fire prevention are in place. |
 
-
-
 ## ⚖️ Compliance Checklist
 * **PCI DSS:** Non-compliant. Credit card information is not encrypted and is accessible to all employees.
 * **GDPR:** Non-compliant. While a 72-hour breach notification plan exists, data is not classified or encrypted.
@@ -24,7 +27,7 @@ Using the **NIST Cybersecurity Framework (CSF)**, I identified several critical 
 
 ## 💡 Top Recommendations
 To reduce the high risk score of **8/10**, the following fixes are top priority:
-1. **Enforce Least Privilege:** Restrict data access to only those who need it for their job.
-2. **Implement Encryption:** Secure all customer PII and financial data at rest and in transit.
-3. **Establish Password Policies:** Deploy a centralized password manager to enforce complexity requirements.
-4. **Deploy an IDS:** Monitor the network for unauthorized access or malicious signatures.
+1.  **Enforce Least Privilege:** Restrict data access to only those who need it for their job.
+2.  **Implement Encryption:** Secure all customer PII and financial data at rest and in transit.
+3.  **Establish Password Policies:** Deploy a centralized password manager to enforce complexity requirements.
+4.  **Deploy an IDS:** Monitor the network for unauthorized access or malicious signatures.
