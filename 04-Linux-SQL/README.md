@@ -10,6 +10,7 @@ This repository contains my technical lab work from the fourth course of the **G
 | :--- | :--- | :--- |
 | **Linux Package Management** | APT, sudo, Suricata, tcpdump, System Hardening | [View Lab](./package-management/README.md) |
 | **Shell Operations** | echo, expr, I/O Basics, Scripting | [View Lab](./linux-shell-basics/README.md) |
+| **Linux File Investigation** | pwd, ls, cd, cat, head, Navigation | [View Lab](./linux-file-investigation/README.md) |
 | *Permissions & Access* | chmod, chown, User Groups, Least Privilege | *In Progress* |
 | *Log Analysis* | grep, awk, sed, Finding security events | *Coming Soon* |
 
