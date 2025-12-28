@@ -24,7 +24,7 @@ During the lab, I initially encountered an error when trying to use a comma in t
 Finally, I modified the `drafts` directory to ensure only the user `researcher2` has execute privileges, effectively revoking group access.
 * **Command:** `chmod g-x drafts`
 
-![Verification of the final permission state for the drafts directory](./final_permissions.jpg)
+![Verification of the final permission state for the drafts directory](./final_perms.jpg)
 
 ---
 
