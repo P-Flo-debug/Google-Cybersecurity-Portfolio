@@ -7,7 +7,7 @@ In this project, I acted as a security analyst for a research team to audit and 
 
 ### 1. Initial System Audit
 I began by navigating to the `projects` directory and listing all files, excluding the hidden ones for now, to view their current permission strings.
-* **Command:** `ls -la`
+* **Command:** `ls -l`
 
 ![Initial audit showing hidden files and current permissions](./audit_list.jpg)
 
