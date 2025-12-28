@@ -18,7 +18,7 @@ I identified several files with insecure permissions. For example, `project_k.tx
 During the lab, I initially encountered an error when trying to use a comma in the `chmod` command without proper spacing. I corrected this by using the standard `u=r,g=r` syntax.
 * **Correction:** `chmod u=r,g=r .project_x.txt`
 
-![Terminal showing the chmod syntax error and successful correction](./chmod_error.jpg)
+![Terminal showing the chmod syntax error and successful correction](./syntax_error.jpg)
 
 ### 3. Securing the Drafts Directory
 Finally, I modified the `drafts` directory to ensure only the user `researcher2` has execute privileges, effectively revoking group access.
