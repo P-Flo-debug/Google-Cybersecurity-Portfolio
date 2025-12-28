@@ -9,7 +9,7 @@ In this project, I acted as a security analyst for a research team to audit and 
 I began by navigating to the `projects` directory and listing all files, including hidden ones, to view their current permission strings.
 * **Command:** `ls -la`
 
-![Initial audit showing hidden files and current permissions](./audit_initial.jpg)
+![Initial audit showing hidden files and current permissions](./audit_list.jpg)
 
 ### 2. Correcting Authorization Gaps
 I identified several files with insecure permissions. For example, `project_k.txt` allowed "others" to write to it, and `project_m.txt` allowed group read access to a restricted file.
