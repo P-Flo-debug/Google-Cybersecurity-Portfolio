@@ -29,4 +29,5 @@ Using the `touch` command, I created a file called `tasks.txt`. I then used the 
 ## 🧠 Security Perspective
 Why does file management matter for security?
 1. **Data Integrity:** Keeping reports in specific, organized folders ensures that analysts can find critical data quickly during an incident.
-2. **Reducing Attack Surface:** Removing temporary files (`temp`) and old notes reduces the amount of "stale" data that could potentially contain sensitive information or
+2. **Reducing Attack Surface:** Removing temporary files (`temp`) and old notes reduces the amount of "stale" data that could potentially contain sensitive information or be exploited.
+3. **Audit Trails:** Using tools like `nano tasks.txt` to document changes ensures there is a clear record of administrative actions for future audits.
