@@ -15,8 +15,7 @@ This repository contains my technical lab work from the fourth course of the **G
 | **File System Management** | mkdir, rm, mv, nano editor | [View Lab](./linux-file-system-management/README.md) |
 | **Authorization Management** | chmod, ls -la, Permissions, Least Privilege | [View Lab](./linux-authorization-management/README.md) |
 | **User & Identity Management** | sudo, useradd, usermod, chown, userdel | [View Lab](./linux-user-management/README.md) |
-| *Permissions & Access* | chmod, chown, User Groups, Least Privilege | *In Progress* |
-| *Log Analysis* | grep, awk, sed, Finding security events | *Coming Soon* |
+| **Command Documentation** | man, whatis, apropos, Help Systems | [View Lab](./linux-command-documentation/README.md) |
 
 ### 🔍 Section 2: SQL (Structured Query Language)
 | Lab Title | Skills Demonstrated | Link to Walkthrough |
