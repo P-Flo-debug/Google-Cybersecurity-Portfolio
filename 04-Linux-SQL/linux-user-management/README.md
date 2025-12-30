@@ -10,7 +10,7 @@ I began by creating the `researcher9` account and assigning them to the `researc
 * **Command:** `sudo useradd researcher9`
 * **Command:** `sudo usermod -g research_team researcher9`
 
-![User creation and primary group assignment](./user_setup.png)
+![User creation and primary group assignment](./user_onboarding.png)
 
 ### 2. Troubleshooting Paths and Secure Offboarding
 I was tasked with changing ownership of `project_r.txt` to the new user. As seen in the documentation below, I encountered "No such file" errors which I resolved by using the absolute path. Once the user's tenure ended, I removed their secondary group access and deleted the account and its associated group to ensure system cleanliness.
@@ -18,4 +18,4 @@ I was tasked with changing ownership of `project_r.txt` to the new user. As seen
 * **Command:** `sudo userdel researcher9`
 * **Command:** `sudo groupdel researcher9`
 
-![Resolving path errors and finalizing user offboarding](./user_management_final.png)
+![Resolving path errors and finalizing user offboarding](./user_offboarding.png)
