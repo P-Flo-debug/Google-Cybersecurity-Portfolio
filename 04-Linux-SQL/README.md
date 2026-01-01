@@ -20,7 +20,7 @@ This repository contains my technical lab work from the fourth course of the **G
 ### 🔍 Section 2: SQL (Structured Query Language)
 | Lab Title | Skills Demonstrated | Link to Walkthrough |
 | :--- | :--- | :--- |
-| *SQL Filtering* | SELECT, FROM, WHERE, Identifying login failures | *Coming Soon* |
+| **SQL Basic Queries** | SELECT, FROM, ORDER BY, Data Retrieval | [View Lab](./sql-basic-queries/README.md) |
 | *Joining Tables* | JOIN, Relational Database security | *Coming Soon* |
 
 ---
