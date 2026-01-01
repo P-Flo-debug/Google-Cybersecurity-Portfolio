@@ -21,7 +21,7 @@ This repository contains my technical lab work from the fourth course of the **G
 | Lab Title | Skills Demonstrated | Link to Walkthrough |
 | :--- | :--- | :--- |
 | **SQL Basic Queries** | SELECT, FROM, ORDER BY, Data Retrieval | [View Lab](./sql-basic-queries/README.md) |
-| *Joining Tables* | JOIN, Relational Database security | *Coming Soon* |
+| **SQL Filtering** | WHERE, LIKE, Wildcards (%), Pattern Matching | [View Lab](./sql-filtering-investigation/README.md) |
 
 ---
 
