@@ -23,6 +23,7 @@ This repository contains my technical lab work from the fourth course of the **G
 | **SQL Basic Queries** | SELECT, FROM, ORDER BY, Data Retrieval | [View Lab](./sql-basic-queries/README.md) |
 | **SQL Filtering** | WHERE, LIKE, Wildcards (%), Pattern Matching | [View Lab](./sql-filtering-investigation/README.md) |
 | **Advanced SQL Filtering** | BETWEEN, Comparison Operators (>, <, =), ID Search | [View Lab](./sql-advanced-filtering/README.md) |
+| **Complex SQL Filtering** | AND, OR, NOT, Boolean Logic | [View Lab](./sql-complex-filtering/README.md) |
 
 ---
 
