@@ -1,44 +1,50 @@
-# SQL Logic: Applying Complex Filters (AND, OR, NOT)
+# Apply filters to SQL queries
 
-## 🛡️ Project Overview
-In this project, I demonstrated the ability to use Boolean logic in SQL to perform advanced security investigations. As a security analyst, I practiced combining multiple conditions to narrow down results and using exclusion logic to remove irrelevant data. These skills are essential for identifying suspicious activity that meets several high-risk criteria simultaneously.
+## Project description
+In this activity, I applied SQL filtering techniques to an organizational database to retrieve specific security-related data. The objective was to investigate potential security issues, such as failed login attempts, and to organize data needed for system updates. I used various SQL operators to refine queries, including AND, OR, NOT, and LIKE, as well as filtering by specific dates and times.
 
-## 🛠️ SQL Operators & Skills Applied
-* **AND:** Combined multiple criteria that must all be true (e.g., failed logins + after-hours).
-* **OR:** Retrieved records matching at least one of several conditions (e.g., multiple departments or dates).
-* **NOT:** Excluded specific data points to focus on outliers (e.g., all countries except Mexico).
-* **Boolean Logic:** Applied 1 (TRUE) and 0 (FALSE) values for success/failure auditing.
-* **Pattern Matching:** Combined logic with the `LIKE` operator for flexible filtering.
+## Retrieve after hours failed login attempts
+To investigate potential unauthorized access, I filtered the `log_in_attempts` table for unsuccessful attempts (represented by a Boolean `0` or `FALSE`) that occurred after 18:00. I used the `AND` operator to ensure both conditions were met simultaneously.
 
-## 🚀 Lab Walkthrough
-
-### 1. Identifying High-Risk Login Failures
-I investigated unsuccessful login attempts occurring after standard business hours (18:00). By using `AND`, I isolated 19 specific events where both the time was late and the `success` value was 0 (FALSE).
 * **Query:** `SELECT * FROM log_in_attempts WHERE login_time > '18:00' AND success = 0;`
+* **Explanation:** This query selects all columns where the time is after 18:00 **AND** the success column is 0, indicating an unsuccessful login attempt.
 
-### 2. Investigating Specific Incident Windows
-To analyze a suspicious event period, I used `OR` to pull all login attempts from two consecutive days (May 8th and 9th, 2022). This allowed for a comprehensive view of activity across the entire incident window.
+## Retrieve login attempts on specific dates
+I searched for activity occurring during a specific incident window on May 8th and May 9th, 2022. This required the `OR` operator to capture records from either date.
+
 * **Query:** `SELECT * FROM log_in_attempts WHERE login_date = '2022-05-08' OR login_date = '2022-05-09';`
+* **Explanation:** By using `OR`, the query retrieves rows if the `login_date` matches either of the two specified values.
 
-### 3. Geographical Exclusion Audits
-I filtered for logins originating outside of Mexico to identify potential foreign unauthorized access. Using `NOT` with `LIKE 'MEX%'` allowed me to exclude all variations of the country name.
+## Retrieve login attempts outside of Mexico
+To identify international login activity, I used the `NOT` operator combined with `LIKE` and a wildcard. This excluded all entries starting with the pattern 'MEX'.
+
 * **Query:** `SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';`
+* **Explanation:** The `NOT` operator reverses the logic, while `LIKE 'MEX%'` uses the `%` wildcard to catch variations like "MEX" or "MEXICO".
 
-### 4. Role-Based Data Retrieval
-I performed several organizational audits using logical operators:
-* **Departmental Pattern Matching:** Found employees in 'Marketing' specifically located in the 'East' building using `AND` and `LIKE 'East%'`.
-* **Multi-Department Filtering:** Used `OR` to locate all staff in either 'Finance' or 'Sales' for specialized security updates.
-* **Exclusion Filtering:** Used `NOT` to identify all employees outside of the 'Information Technology' department to track update progress.
 
----
 
-## 🧠 Security Perspective
-Why is Boolean logic critical for a Security Professional?
-1. **Correlation:** Attackers often hide in the "middle" of logs. `AND` allows an analyst to correlate different behaviors (like a specific user + a specific IP + a specific time) to confirm a threat.
-2. **Noise Reduction:** `NOT` is one of the most powerful tools for threat hunting. By filtering out "known good" activity (like IT department logins or domestic traffic), analysts can see the suspicious outliers that remain.
-3. **Inclusive Searching:** During an active breach, an analyst might need to watch multiple departments or server IDs at once. `OR` ensures no critical data is missed.
+## Retrieve employees in Marketing
+I identified employees in the Marketing department who work in the East building. This required pattern matching for the office location.
+
+* **Query:** `SELECT * FROM employees WHERE department = 'Marketing' AND office LIKE 'East%';`
+* **Explanation:** The `AND` operator ensures the employee is in Marketing, and `LIKE 'East%'` filters for any office number within the East building.
+
+## Retrieve employees in Finance or Sales
+I retrieved records for two departments simultaneously to facilitate specialized security updates.
+
+* **Query:** `SELECT * FROM employees WHERE department = 'Finance' OR department = 'Sales';`
+* **Explanation:** Using `OR` allows the results to include employees who belong to either the Finance department or the Sales department.
+
+## Retrieve all employees not in IT
+To identify employees who still needed an update that had already been deployed to the IT department, I used an exclusion filter.
+
+* **Query:** `SELECT * FROM employees WHERE NOT department = 'Information Technology';`
+* **Explanation:** The `NOT` operator excludes any record where the department is 'Information Technology', returning all other staff members.
+
+## Summary
+In this lab, I practiced advanced data retrieval using SQL filters. I successfully used `AND` and `OR` to handle multiple conditions and `NOT` to exclude irrelevant data. I also applied `LIKE` with wildcards (`%`) for pattern matching and filtered by specific dates and times. These skills are fundamental for security analysts to efficiently extract actionable insights from large datasets.
 
 ---
 
 ## 📝 Personal Insights
-Learning to combine `AND` and `OR` felt like learning to build a digital filter. I realized that the order of these commands is very important for the results. It was also interesting to see that SQL uses `1` and `0` for TRUE and FALSE—this reminds me of the binary basics I learned earlier in the course.
+During this lab, I learned that combining logical operators allows for much more precise investigations. The `LIKE` operator is especially useful when dealing with naming conventions, such as building names or country codes, that might have slight variations. I also recognized how important it is to distinguish between Boolean data (like success/failure) and string data when writing queries to avoid errors.
