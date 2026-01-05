@@ -24,6 +24,7 @@ This repository contains my technical lab work from the fourth course of the **G
 | **SQL Filtering** | WHERE, LIKE, Wildcards (%), Pattern Matching | [View Lab](./sql-filtering-investigation/README.md) |
 | **Advanced SQL Filtering** | BETWEEN, Comparison Operators (>, <, =), ID Search | [View Lab](./sql-advanced-filtering/README.md) |
 | **Complex SQL Filtering** | AND, OR, NOT, Boolean Logic | [View Lab](./sql-complex-filtering/README.md) |
+| **SQL Joins & Incident Investigation** | INNER JOIN, LEFT JOIN, RIGHT JOIN, table.column syntax | [View Lab](./sql-joins-incident-investigation/README.md) |
 
 ---
 
