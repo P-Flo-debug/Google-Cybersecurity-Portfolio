@@ -33,7 +33,7 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 This project documents a comprehensive risk assessment for a fictional organization's financial assets. By identifying specific threats and vulnerabilities, this register provides a roadmap for prioritizing security controls and mitigation strategies.
 
 ## Risk Assessment Framework
-The risks identified in the [Risk-register.csv](./05-Assets-Threats-Vulnerabilities/Risk-register.csv) are evaluated using a scoring system to determine the **Priority Level**:
+The risks identified in the [Risk-register.csv](./Risk-register.csv) are evaluated using a scoring system to determine the **Priority Level**:
 * **Likelihood:** The probability of the threat occurring (Scale of 1-3).
 * **Severity:** The potential impact on the organization's operations or finances (Scale of 1-3).
 * **Priority Score:** Calculated as $Likelihood \times Severity$.
