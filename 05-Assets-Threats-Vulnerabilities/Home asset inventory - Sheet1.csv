@@ -1,0 +1,7 @@
+,Asset,Network access,Owner,Location,Notes,Sensitivity,,,
+1,Network router,Continuous,Internet service provider (ISP),On-premises,Has a 2.4 GHz and 5 GHz connection. All devices on the home network connect to the 5 GHz frequency.,Confidential,,Categories,Access designation
+2,Desktop,Occasional,Homeowner,On-premises,"Contains private information, like photos.",Restricted,,Restricted,Need-to-know
+3,Guest smartphone,Occasional,Friend,On and Off-premises,Connects to my home network.,Internal-only,,Confidential,Limited to specific users
+4,Printer ,Occasional,Homeowner,On-premises,Connects to my home network. Potentially has sensitive documents stored in memory.,Internal-only,,Internal-only,Users on-premises
+5,Headphones,Occasional,Spouse,On and Off-premises,Connects to my home network. Potential bluetooth/wireless entry point.,Internal-only,,Public,Anyone
+6,Camera,Occasional,Homeowner,On-premises,Connects to my home network. High potential for privacy breach.,Confidential,,,
