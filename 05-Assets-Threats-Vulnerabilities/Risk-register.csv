@@ -4,5 +4,5 @@ Funds,Business email compromise,An employee is tricked into sharing confidential
 ,Financial records leak,A database server of backed up data is publicly accessible.,1,3,3
 ,Theft,The bank's safe is left unlocked.,2,3,6
 ,Supply chain disruption,Delivery delays due to natural disasters.,1,2,2
-Notes,"How are security events possible considering the risks the asset faces in its operating environment?
-The bank’s high volume of data handlers (120 employees) and diverse account types increase the surface area for human error and targeted social engineering. Furthermore, while the coastal location provides a low-crime physical environment, it introduces environmental vulnerabilities and supply chain risks that could impact regulatory compliance regarding cash availability.",,,,
+
+
