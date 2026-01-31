@@ -27,19 +27,37 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 
 ---
 
-### 2. Banking Sector Risk Register & Assessment
-**Goal:** Analyze a financial institution's operational environment to quantify and prioritize security risks to critical assets.
+### 2. Risk Register: Asset Protection & Threat Analysis
 
-* **Scenario:** A coastal bank with 120 employees (remote and on-premise) and 2,200 accounts, requiring strict compliance with Federal Reserve regulations.
-* **Skills Applied:** Risk Quantification ($Likelihood \times Severity$), Business Impact Analysis (BIA), Regulatory Compliance.
-* **Methodology:** * Conducted a threat assessment of the bank's **Funds** asset.
-    * Calculated priority scores to rank threats ranging from environmental disasters to cyber-attacks.
-    * Analyzed how the "human element" (120 data handlers) impacts the organization's attack surface.
-* **Key Findings:** * **Critical Risks (Score 9):** Identified **Business Email Compromise (BEC)** and **Poor Encryption** as the highest priority threats.
-    * **Strategic Insight:** While physical crime is low in the coastal area, the high volume of employees creates a significant risk of social engineering. Furthermore, environmental factors introduce supply chain risks that could impact daily cash availability requirements.
+## Project Overview
+This project documents a comprehensive risk assessment for a fictional organization's financial assets. By identifying specific threats and vulnerabilities, this register provides a roadmap for prioritizing security controls and mitigation strategies.
 
-**[View Risk Register Spreadsheet](./Risk-register.csv)**
+## Risk Assessment Framework
+The risks identified in the [Risk-register.csv](./05-Assets-Threats-Vulnerabilities/Risk-register.csv) are evaluated using a scoring system to determine the **Priority Level**:
+* **Likelihood:** The probability of the threat occurring (Scale of 1-3).
+* **Severity:** The potential impact on the organization's operations or finances (Scale of 1-3).
+* **Priority Score:** Calculated as $Likelihood \times Severity$.
 
+## Executive Summary of Risks
+| Asset | Risk | Priority Score |
+| :--- | :--- | :--- |
+| **Funds** | Business email compromise | **9 (Critical)** |
+| **Funds** | Compromised user database | **9 (Critical)** |
+| **Funds** | Theft | **6 (High)** |
+| **Funds** | Financial records leak | **3 (Medium)** |
+| **Funds** | Supply chain disruption | **2 (Low)** |
+
+## Security Observations
+The following factors were identified as key drivers for the current risk landscape:
+* **Attack Surface:** The organization has a high volume of data handlers (120 employees), which increases the likelihood of social engineering and internal errors.
+* **Technical Vulnerabilities:** Key risks include poorly encrypted customer data and publicly accessible backup servers.
+* **Operational Environment:** While natural disasters pose a threat to the supply chain, the immediate focus is on mitigating high-priority cyber threats like Business Email Compromise (BEC).
+
+## Mitigation Objectives
+The primary goal for the next phase of this project is to implement controls that reduce the "Critical" priority risks, specifically focusing on:
+1. **Access Control:** Implementing Multi-Factor Authentication (MFA) to prevent BEC.
+2. **Encryption:** Upgrading database encryption standards to protect customer information.
+3. **Network Security:** Securing backup servers to prevent unauthorized public access.
 ---
 
 ## 🛠️ Security Frameworks & Concepts
