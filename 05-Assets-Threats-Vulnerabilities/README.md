@@ -1,4 +1,4 @@
-# Google Cybersecurity Certificate - Course 5: Assets, Threats, and Vulnerabilities
+# Course 5: Assets, Threats, and Vulnerabilities
 
 ## 🛡️ Executive Summary
 This repository documents my work on the fifth course of the Google Cybersecurity Professional Certificate. The focus of this module is moving beyond technical tools to master **Risk Management**, **Asset Security**, and the **Attacker Mindset**.
