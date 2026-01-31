@@ -27,6 +27,21 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 
 ---
 
+### 2. Banking Sector Risk Register & Assessment
+**Goal:** Analyze a financial institution's operational environment to quantify and prioritize security risks to critical assets.
+
+* **Scenario:** A coastal bank with 120 employees (remote and on-premise) and 2,200 accounts, requiring strict compliance with Federal Reserve regulations.
+* **Skills Applied:** Risk Quantification ($Likelihood \times Severity$), Business Impact Analysis (BIA), Regulatory Compliance.
+* **Methodology:** * Conducted a threat assessment of the bank's **Funds** asset.
+    * Calculated priority scores to rank threats ranging from environmental disasters to cyber-attacks.
+    * Analyzed how the "human element" (120 data handlers) impacts the organization's attack surface.
+* **Key Findings:** * **Critical Risks (Score 9):** Identified **Business Email Compromise (BEC)** and **Poor Encryption** as the highest priority threats.
+    * **Strategic Insight:** While physical crime is low in the coastal area, the high volume of employees creates a significant risk of social engineering. Furthermore, environmental factors introduce supply chain risks that could impact daily cash availability requirements.
+
+**[View Risk Register Spreadsheet](./Risk-register.csv)**
+
+---
+
 ## 🛠️ Security Frameworks & Concepts
 * **NIST Cybersecurity Framework (CSF):** Applied the "Identify" and "Protect" functions.
 * **Principle of Least Privilege (PoLP):** Analyzed access levels to minimize exposure.
