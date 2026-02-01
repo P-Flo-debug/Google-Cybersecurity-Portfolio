@@ -84,6 +84,8 @@ To prevent future leaks, I proposed two specific enhancements based on the NIST 
 ## Professional Justification
 These recommendations move the organization from a "manual-only" permission model to a systemic security posture. By automating the lifecycle of access and enforcing strict role boundaries, the company significantly reduces the risk of human error leading to a privacy breach.
 
+[View Detailed Analysis Worksheet](./data-leak-analysis.md)
+
 ---
 
 ## 🛠️ Security Frameworks & Concepts
