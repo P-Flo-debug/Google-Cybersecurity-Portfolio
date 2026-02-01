@@ -13,7 +13,7 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 
 ## 📁 Featured Projects
 
-### 1. Home Office Asset Inventory & Risk Classification
+### Project 1. Home Office Asset Inventory & Risk Classification
 **Goal:** Identify all devices on a network and classify them based on the risk they pose to the organization if compromised.
 
 * **Project Scope:** Analyzed a small business/home office network consisting of routers, workstations, and IoT devices.
@@ -27,7 +27,7 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 
 ---
 
-### 2. Risk Register: Asset Protection & Threat Analysis
+### Project 2. Risk Register: Asset Protection & Threat Analysis
 
 ## Project Overview
 This project documents a comprehensive risk assessment for a fictional organization's financial assets. By identifying specific threats and vulnerabilities, this register provides a roadmap for prioritizing security controls and mitigation strategies.
@@ -58,6 +58,32 @@ The primary goal for the next phase of this project is to implement controls tha
 1. **Access Control:** Implementing Multi-Factor Authentication (MFA) to prevent BEC.
 2. **Encryption:** Upgrading database encryption standards to protect customer information.
 3. **Network Security:** Securing backup servers to prevent unauthorized public access.
+
+---
+
+# Project 3: Data Privacy & Least Privilege Analysis
+
+## Project Overview
+This project focuses on identifying gaps in data handling processes and information privacy. I analyzed a real-world scenario involving a data leak at an educational technology company to determine how a failure to implement the **Principle of Least Privilege** led to an unauthorized disclosure of confidential business plans.
+
+## Incident Analysis: The Internal Document Leak
+* **Factors Involved:** A manager granted temporary access to a folder containing both marketing materials and internal analytics but failed to revoke permissions.
+* **The Breach:** A representative accidentally shared a link to the entire sensitive folder with an external partner during a sales call.
+* **Outcome:** Confidential business plans were leaked onto social media, compromising the organization's intellectual property.
+
+## Privacy Framework (NIST SP 800-53: AC-6)
+I applied the **NIST SP 800-53: AC-6** standard to evaluate the company's controls. This framework requires that users be granted the minimum access necessary for their roles to maintain information privacy.
+
+
+
+## Control Enhancement Recommendations
+To prevent future leaks, I proposed two specific enhancements based on the NIST AC-6 resource:
+1. **Role-Based Access Control (RBAC):** Restrict "Customer Success" roles from accessing folders containing internal analytics, ensuring they only interact with approved external marketing data.
+2. **Access Revocation Protocols:** Implement technical controls to automatically unshare or expire folder access once a specific project or meeting concludes, removing reliance on manual manager intervention.
+
+## Professional Justification
+These recommendations move the organization from a "manual-only" permission model to a systemic security posture. By automating the lifecycle of access and enforcing strict role boundaries, the company significantly reduces the risk of human error leading to a privacy breach.
+
 ---
 
 ## 🛠️ Security Frameworks & Concepts
