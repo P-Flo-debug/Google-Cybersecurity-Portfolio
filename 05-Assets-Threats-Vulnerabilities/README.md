@@ -125,7 +125,7 @@ Using the recovered passphrase, I decrypted the main data file (`Q1.encrypted`) 
 ### 📸 Lab Evidence
 Click the link below to view the terminal output and successful decryption process:
 
-* **[View Lab Screenshot: Decryption Process](./Screenshot%202026-02-28%20150015.png)**
+* **[View Lab Screenshot: Decryption Process](./Decryption_Lab.png)**
 
 ---
 
