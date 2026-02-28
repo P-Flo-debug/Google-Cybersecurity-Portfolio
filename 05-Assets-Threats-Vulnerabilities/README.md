@@ -61,7 +61,7 @@ The primary goal for the next phase of this project is to implement controls tha
 
 ---
 
-# Project 3: Data Privacy & Least Privilege Analysis
+### Project 3: Data Privacy & Least Privilege Analysis
 
 ## Project Overview
 This project focuses on identifying gaps in data handling processes and information privacy. I analyzed a real-world scenario involving a data leak at an educational technology company to determine how a failure to implement the **Principle of Least Privilege** led to an unauthorized disclosure of confidential business plans.
@@ -85,6 +85,52 @@ To prevent future leaks, I proposed two specific enhancements based on the NIST 
 These recommendations move the organization from a "manual-only" permission model to a systemic security posture. By automating the lifecycle of access and enforcing strict role boundaries, the company significantly reduces the risk of human error leading to a privacy breach.
 
 [View Detailed Analysis Worksheet](./data-leak-analysis.md)
+
+---
+
+### Project 4: Decrypt an Encrypted Message
+
+### 🛡️ Project Overview
+In this scenario, I acted as a security analyst responding to a situation where critical data files were encrypted. My task was to navigate the Linux file system, identify a hidden decryption key protected by a legacy Caesar cipher, and use that key to recover data encrypted with modern AES-256 standards.
+
+---
+
+### 🛠️ Technical Skills & Tools
+* **Linux Terminal:** Advanced navigation (`ls -a`), file inspection (`cat`), and data redirection.
+* **Cryptography Identification:** Recognizing and reversing a **Caesar Cipher** (Substitution).
+* **Data Recovery:** Utilizing **OpenSSL** for symmetric decryption.
+* **Bash Scripting Logic:** Using the `tr` (translate) command and pipes (`|`) for stream processing.
+
+---
+
+### 📝 Step-by-Step Execution
+
+#### 1. Discovery of Hidden Assets
+Upon inspecting the `caesar` directory, I used `ls -a` to reveal a hidden file: `.leftShift3`. This file contained the obfuscated instructions needed to proceed.
+
+#### 2. Reversing the Caesar Cipher
+The file name `.leftShift3` hinted at a 3-character shift. I used the `tr` command to "rotate" the alphabet back to its original state:
+* **Command:** `cat .leftShift3 | tr "d-za-cd-ZA-C" "a-zA-Z"`
+* **Result:** This revealed the secret passphrase: **"ettubrute"**.
+
+
+
+#### 3. Formal Decryption with OpenSSL
+Using the recovered passphrase, I decrypted the main data file (`Q1.encrypted`) into a readable recovery file (`Q1.recovered`) using the AES-256-CBC algorithm.
+* **Command:** 
+    openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+    
+---
+
+### 📸 Lab Evidence
+Click the link below to view the terminal output and successful decryption process:
+
+* **[View Lab Screenshot: Decryption Process](./Screenshot%202026-02-28%20150015.png)**
+
+---
+
+### 💡 Key Takeaways
+This lab highlights the importance of **Passphrase Management** and the difference between **Obfuscation** (Caesar Cipher) and **Encryption** (AES). As an analyst, being able to manipulate data via the command line is essential for rapid incident response and digital forensics.
 
 ---
 
