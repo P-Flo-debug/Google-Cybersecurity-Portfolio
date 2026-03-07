@@ -1,13 +1,21 @@
-# Professional Statement: Values & Soft Skills
+## Professional Statement: Values & Soft Skills
 
-I am an aspiring Cybersecurity Analyst who believes that effective security is built on a foundation of communication and mutual trust. While I am developing my technical foundation through the Google Cybersecurity Professional Certificate, I prioritize the "human element" of defense—recognizing that listening and collaboration are just as critical as technical controls.
+I’m a student working toward a career in cybersecurity and currently pursuing my Associate’s degree while maintaining a **4.0 GPA**. I am also building my technical knowledge through the **Google Cybersecurity Professional Certificate**. As I continue learning about cybersecurity, I’ve come to understand that effective security isn’t just about technology; it’s also about people, communication, and teamwork.
 
-### My Core Values
+### Core Values
 
-* **Active Listening:** I believe in listening first to understand the needs of stakeholders and the challenges faced by end-users to provide better security solutions.
-* **Clear Communication:** I am dedicated to translating complex technical risks into clear, actionable advice that everyone in the organization can understand.
-* **Cross-Functional Collaboration:** I thrive in team environments where sharing knowledge and working together across departments leads to a stronger security posture.
-* **Empathy in Security:** I approach security with a supportive mindset, helping colleagues stay safe rather than just enforcing rules.
+**Active Listening**  
+I believe in understanding the needs and challenges of others before trying to solve a problem. Listening to users and team members helps create security solutions that are practical and effective.
 
-### Professional Philosophy
-My goal is to be a bridge between technical security requirements and the people they are designed to protect. I aim to foster a culture of security awareness through patience, approachability, and open dialogue as I grow within the cybersecurity industry.
+**Clear Communication**  
+Cybersecurity topics can be complex, so I focus on explaining risks and solutions in ways that are clear and accessible to everyone.
+
+**Collaboration**  
+I enjoy working with others and believe that strong teamwork leads to better security practices and stronger organizations.
+
+**Empathy in Security**  
+Security should support people, not just enforce rules. I believe helping others understand safe practices creates a more secure environment for everyone.
+
+### Professional Goal
+
+As I continue developing my skills, my goal is to help bridge the gap between technical security requirements and the people those protections are designed to support. I hope to contribute to a workplace culture where security awareness grows through open communication, patience, and teamwork.
