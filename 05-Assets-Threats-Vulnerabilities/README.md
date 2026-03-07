@@ -23,6 +23,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Navigate the Linux file system to recover data protected by legacy and modern cryptography.
 * **Outcome:** Used **OpenSSL** and **Bash** logic to reverse a Caesar cipher and decrypt AES-256 files.
 
+### 📑 [Project 5: File Integrity Analysis via Hashing](./project-5)
+* **Goal:** Use cryptographic hashing to verify if two seemingly identical files have been tampered with.
+* **Outcome:** Generated SHA-256 fingerprints to identify byte-level differences that were invisible to the naked eye.
+
 ---
 
 ## 🎯 Key Competencies
