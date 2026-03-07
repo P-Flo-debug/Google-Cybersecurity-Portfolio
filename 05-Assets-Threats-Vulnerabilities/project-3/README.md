@@ -13,4 +13,4 @@ Applied the **Principle of Least Privilege (PoLP)** to propose a systemic shift 
 Moving from a "manual-only" permission model to an automated system reduces the risk of human error which is the leading cause of internal data breaches.
 
 ### 📑 Artifacts
-* [View Detailed Analysis Worksheet](./privacy_analysis.pdf)
+* [View Detailed Analysis Worksheet](./data-leak-analysis.md)
