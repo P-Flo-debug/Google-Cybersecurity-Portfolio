@@ -36,4 +36,4 @@ This lab highlights the **Integrity** component of the CIA Triad. Hashing is a n
 
 ---
 ### 📑 Artifacts
-* [Lab Documentation: Hashing Workflow](./hashing_analysis.md)
+* [Lab Documentation: Hashing Workflow](./hashing_analysis.png)
