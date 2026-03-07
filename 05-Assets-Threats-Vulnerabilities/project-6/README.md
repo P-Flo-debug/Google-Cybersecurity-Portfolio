@@ -33,6 +33,9 @@ To prevent future incidents, I proposed the following security enhancements:
 This project highlights that **technical tools are only as effective as the policies governing them.** A lack of account accountability is a high-risk vulnerability that can lead to significant financial loss.
 
 ---
-### 📑 Artifacts
-* [Access Control Worksheet](./Access-control-worksheet.md)
-* [Incident Event Log Analysis](./accounting_exercise_log.csv)
+### 📑 Project Evidence & Analysis
+To conduct this audit, I cross-referenced the raw system logs against the internal personnel directory:
+
+* [View Incident Event Log](./Accounting-exercise-Event-log.csv) — Contains the specific timestamp, IP address, and unauthorized payroll action.
+* [View Employee Directory](./Accounting-exercise-Employee-directory.csv) — Used to identify the threat actor by matching IP addresses and contract end dates.
+* [View Completed Access Control Worksheet](./Access-control-worksheet.pdf) — My final analysis and mitigation report.
