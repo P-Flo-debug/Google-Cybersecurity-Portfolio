@@ -31,6 +31,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Audit organizational access controls following a suspicious unauthorized payroll deposit.
 * **Outcome:** Identified critical failures in identity lifecycle management and proposed a transition to an IAM/AAA framework to enforce the Principle of Least Privilege.
 
+### 📑 [Project 7: Social Engineering & USB Baiting Analysis](./project-7)
+* **Goal:** Analyze the risks associated with found removable media (USB Baiting) and propose multi-layered defense-in-depth controls.
+* **Outcome:** Conducted a risk assessment of exposed PII and SPII, recommending technical, operational, and managerial mitigations to prevent malware injection.
+
 ---
 
 ## 🎯 Key Competencies
