@@ -12,4 +12,4 @@ Identify all devices on a small business/home office network and classify them b
 Identified an **IP Camera** as a high-risk asset. Upgraded its classification to **Confidential** due to the risk of unauthorized PII access and potential for lateral movement within the network.
 
 ### 📑 Artifacts
-* [View Asset Inventory Spreadsheet](./asset_inventory.csv)
+* [View Asset Inventory Spreadsheet](./Home-asset-inventory.csv)
