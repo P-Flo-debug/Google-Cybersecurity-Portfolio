@@ -22,4 +22,4 @@ Risks were evaluated using a quantitative scoring system:
 * **Network Security:** Secure public-facing backup servers.
 
 ### 📑 Artifacts
-* [View Risk Register](./Risk-register.csv)
+* [View Risk Register](Risk-register.csv)
