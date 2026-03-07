@@ -14,4 +14,4 @@ Acting as a security analyst, I navigated a Linux environment to recover critica
 This lab demonstrates the difference between **Obfuscation** (Caesar) and **Strong Encryption** (AES), and the importance of command-line proficiency in incident response.
 
 ### 📑 Artifacts
-* [Terminal Lab Screenshot](./Decryption_lab.png)
+* [Terminal Lab Screenshot](./Decryption_Lab.png)
