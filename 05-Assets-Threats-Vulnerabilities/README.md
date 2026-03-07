@@ -35,6 +35,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Analyze the risks associated with found removable media (USB Baiting) and propose multi-layered defense-in-depth controls.
 * **Outcome:** Conducted a risk assessment of exposed PII and SPII, recommending technical, operational, and managerial mitigations to prevent malware injection.
 
+### 📑 [Project 8: Vulnerability Assessment & Risk Quantification](./project-8)
+* **Goal:** Perform a comprehensive vulnerability assessment on a public-facing MySQL database server using NIST SP 800-30 Rev. 1.
+* **Outcome:** Quantified risks by calculating Likelihood x Severity scores and developed a multi-layered remediation strategy involving TLS encryption and IP allow-listing.
+
 ---
 
 ## 🎯 Key Competencies
