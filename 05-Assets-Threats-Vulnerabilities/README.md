@@ -27,6 +27,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Use cryptographic hashing to verify if two seemingly identical files have been tampered with.
 * **Outcome:** Generated SHA-256 fingerprints to identify byte-level differences that were invisible to the naked eye.
 
+### 📑 [Project 6: Access Control & IAM Analysis](./project-6)
+* **Goal:** Audit organizational access controls following a suspicious unauthorized payroll deposit.
+* **Outcome:** Identified critical failures in identity lifecycle management and proposed a transition to an IAM/AAA framework to enforce the Principle of Least Privilege.
+
 ---
 
 ## 🎯 Key Competencies
