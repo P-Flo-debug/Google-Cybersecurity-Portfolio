@@ -34,5 +34,5 @@ This project highlights that **technical tools are only as effective as the poli
 
 ---
 ### 📑 Artifacts
-* [Access Control Worksheet](./Access control worksheet.md)
+* [Access Control Worksheet](./Access-control-worksheet.md)
 * [Incident Event Log Analysis](./accounting_exercise_log.csv)
