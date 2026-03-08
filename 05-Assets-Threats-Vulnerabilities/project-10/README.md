@@ -40,5 +40,5 @@ Threat modeling with PASTA ensures that security is baked into the development l
 ---
 ### 📑 Artifacts
 * [Full PASTA Analysis Worksheet](./PASTA-worksheet.pdf)
-* [Data Flow Diagram (Visualized)](./PASTA-data-flow-diagram.png)
-* [Attack Tree Model](./PASTA-attack-tree.png)
+* [Data Flow Diagram (Visualized)](./PASTA-data-flow-diagram.pdf)
+* [Attack Tree Model](./PASTA-attack-tree.pdf)
