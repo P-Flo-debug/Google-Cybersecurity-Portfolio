@@ -40,4 +40,4 @@ Based on the evidence of domain spoofing, spelling errors, and malicious URLs, I
 
 ---
 ### 📑 Artifacts
-* [View Phishing Analysis Report](./Phishing-Analysis-Summary.md)
+* [View Phishing Analysis Report](./Phishing-Analysis-Report.md)
