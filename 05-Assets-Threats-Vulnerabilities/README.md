@@ -43,6 +43,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Investigate a suspicious "ExecuTalk" spear phishing email targeting a high-level executive (CFO).
 * **Outcome:** Identified malicious indicators in headers, body, and URLs; recommended quarantine to prevent credential harvesting and malware infection.
 
+### 📑 [Project 10: Threat Modeling with the PASTA Framework](./project-10)
+* **Goal:** Apply the 7-stage PASTA framework to a sneaker marketplace application to identify and mitigate high-impact threats.
+* **Outcome:** Developed data flow diagrams and attack trees to prioritize API security and prevent SQL injection and session hijacking.
+
 ---
 
 ## 🎯 Key Competencies
