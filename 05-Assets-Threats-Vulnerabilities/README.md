@@ -39,6 +39,10 @@ This repository documents my work on the fifth course of the Google Cybersecurit
 * **Goal:** Perform a comprehensive vulnerability assessment on a public-facing MySQL database server using NIST SP 800-30 Rev. 1.
 * **Outcome:** Quantified risks by calculating Likelihood x Severity scores and developed a multi-layered remediation strategy involving TLS encryption and IP allow-listing.
 
+### 📑 [Project 9: Spear Phishing & Email Forensic Analysis](./project-9)
+* **Goal:** Investigate a suspicious "ExecuTalk" spear phishing email targeting a high-level executive (CFO).
+* **Outcome:** Identified malicious indicators in headers, body, and URLs; recommended quarantine to prevent credential harvesting and malware infection.
+
 ---
 
 ## 🎯 Key Competencies
