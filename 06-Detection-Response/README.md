@@ -21,6 +21,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Incident Documentation` `Phishing Analysis` `Ransomware Awareness`
 * **[View Project Details](./project-01)**
 
+### 🚀 Project 2: Network Traffic Analysis with Wireshark
+* **Goal:** Use Wireshark to intercept and analyze a packet capture (.pcap) file to identify suspicious network behavior.
+* **Outcome:** Successfully filtered traffic by IP, MAC address, and Port; analyzed the TCP/IP layers; and inspected DNS queries and TCP payloads.
+* **Skills:** `Packet Analysis` `Wireshark` `Network Protocols (TCP/UDP/ICMP/DNS)`
+* **[View Project Details](./project-2)**
+
 *(More projects will be added as they are completed)*
 
 ---
