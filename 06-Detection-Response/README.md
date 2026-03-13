@@ -15,10 +15,10 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 
 ## 📑 Featured Projects
 
-### 🚀 Project 1: [Placeholder for Lab 1 Title]
-* **Goal:** [Summary of objective]
-* **Outcome:** [Summary of result]
-* **Skills:** `Incident Handling` `Detection`
+### 🚀 Project 1: Ransomware Incident Documentation
+* **Goal:** Document a high-impact ransomware attack at a healthcare clinic using an Incident Handler's Journal.
+* **Outcome:** Analyzed the attack vector (Spear Phishing) and categorized the breach details using the 5 W's to assist in the forensic recovery process.
+* **Skills:** `Incident Documentation` `Phishing Analysis` `Ransomware Awareness`
 * **[View Project Details](./project-1)**
 
 *(More projects will be added as they are completed)*
