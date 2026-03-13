@@ -27,4 +27,4 @@ This incident highlights a critical failure in human-layer security. Even withou
 
 ---
 ### 📑 Artifacts
-* [View Incident Handler Journal (Entry 01)](./Incident-Handler-Journal-Entry-01.pdf)
+* [View Incident Handler Journal (Entry 01)](./cyber-incident-01.pdf)
