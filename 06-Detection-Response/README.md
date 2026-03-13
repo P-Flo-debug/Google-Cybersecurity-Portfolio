@@ -25,7 +25,7 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Goal:** Use Wireshark to intercept and analyze a packet capture (.pcap) file to identify suspicious network behavior.
 * **Outcome:** Successfully filtered traffic by IP, MAC address, and Port; analyzed the TCP/IP layers; and inspected DNS queries and TCP payloads.
 * **Skills:** `Packet Analysis` `Wireshark` `Network Protocols (TCP/UDP/ICMP/DNS)`
-* **[View Project Details](./project-2)**
+* **[View Project Details](./project-02)**
 
 *(More projects will be added as they are completed)*
 
