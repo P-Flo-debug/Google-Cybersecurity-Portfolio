@@ -27,6 +27,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Packet Analysis` `Wireshark` `Network Protocols (TCP/UDP/ICMP/DNS)`
 * **[View Project Details](./project-02)**
 
+### 🚀 Project 3: Command-Line Packet Capture with tcpdump
+* **Goal:** Identify network interfaces and capture live traffic on a Linux VM using the `tcpdump` utility.
+* **Outcome:** Captured port 80 traffic into a `.pcap` file, filtered packets using command-line flags, and inspected hexadecimal/ASCII payloads for forensic analysis.
+* **Skills:** `Linux CLI` `tcpdump` `Packet Sniffing` `Network Forensics`
+* **[View Project Details](./project-03)**
+
 *(More projects will be added as they are completed)*
 
 ---
