@@ -33,6 +33,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Linux CLI` `tcpdump` `Packet Sniffing` `Network Forensics`
 * **[View Project Details](./project-03)**
 
+### 🚀 Project 4: Comparative Analysis - Wireshark vs. tcpdump
+* **Goal:** Research and document the technical similarities and distinct use cases for GUI-based and CLI-based network protocol analyzers.
+* **Outcome:** Created a technical comparison chart identifying key differences in interface, resource consumption, and forensic capabilities.
+* **Skills:** `Tool Evaluation` `Network Forensics` `Technical Documentation`
+* **[View Project Details](./project-04)**
+
 *(More projects will be added as they are completed)*
 
 ---
