@@ -19,7 +19,7 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Goal:** Document a high-impact ransomware attack at a healthcare clinic using an Incident Handler's Journal.
 * **Outcome:** Analyzed the attack vector (Spear Phishing) and categorized the breach details using the 5 W's to assist in the forensic recovery process.
 * **Skills:** `Incident Documentation` `Phishing Analysis` `Ransomware Awareness`
-* **[View Project Details](./project-1)**
+* **[View Project Details](./project-01)**
 
 *(More projects will be added as they are completed)*
 
