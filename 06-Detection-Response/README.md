@@ -39,6 +39,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Tool Evaluation` `Network Forensics` `Technical Documentation`
 * **[View Project Details](./project-04)**
 
+### 🚀 Project 5: Threat Intelligence & The Pyramid of Pain
+* **Goal:** Use VirusTotal to analyze a malicious file hash and map associated Indicators of Compromise (IoCs) to the Pyramid of Pain framework.
+* **Outcome:** Identified the "Flagpro" malware and linked the attack to the "BlackTech" APT group. Documented IPs, domains, and TTPs to increase the cost of future attacks for the adversary.
+* **Skills:** `Threat Intelligence` `VirusTotal` `OSINT` `Pyramid of Pain` `MITRE ATT&CK`
+* **[View Project Details](./project-05)**
+
 *(More projects will be added as they are completed)*
 
 ---
