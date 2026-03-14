@@ -35,4 +35,4 @@ Consistency is the key to effective security operations. By following a playbook
 ---
 ### 📑 Artifacts
 * [Completed Alert Ticket A-2703](./alert-ticket.pdf)
-* [Incident Handler Journal Entry #03](./journal-02.pdf)
+* [Incident Handler Journal Entry #03](./journal-03.pdf)
