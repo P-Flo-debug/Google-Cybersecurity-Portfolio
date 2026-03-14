@@ -45,6 +45,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Threat Intelligence` `VirusTotal` `OSINT` `Pyramid of Pain` `MITRE ATT&CK`
 * **[View Project Details](./project-05)**
 
+### 🚀 Project 6: Incident Response Playbook & Ticket Resolution
+* **Goal:** Resolve a verified phishing alert by following a standardized Phishing Playbook and flowchart.
+* **Outcome:** Evaluated email artifacts (headers, body, and attachments), performed an escalation based on alert severity, and documented the resolution in a professional ticket format.
+* **Skills:** `Incident Handling` `Playbook Execution` `Ticket Documentation` `Phishing Analysis`
+* **[View Project Details](./project-06)**
+
 *(More projects will be added as they are completed)*
 
 ---
