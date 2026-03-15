@@ -4,10 +4,11 @@
 This module focuses on the operational side of cybersecurity: the **Security Operations Center (SOC)**. In this course, I transitioned from planning and prevention to active monitoring, incident detection, and response. I gained hands-on experience with SIEM tools, network traffic analysis, and the NIST Incident Response lifecycle to manage and mitigate active security threats.
 
 ## 🛠️ Detection & Response Toolkit
-* **SIEM Tools:** [To be added: e.g., Chronicle, Splunk]
-* **Network Analysis:** [To be added: e.g., Wireshark, tcpdump]
-* **Intrusion Detection (IDS):** [To be added: e.g., Snort, Suricata]
-* **Frameworks:** NIST SP 800-61 (Incident Handling), VERIS Schema.
+* **SIEM Tools:** Wazuh, Chronicle
+* **Network Analysis:** Wireshark, tcpdump
+* **Intrusion Detection (IDS):** Suricata
+* **Threat Intelligence:** VirusTotal, Pyramid of Pain
+* **Frameworks:** NIST SP 800-61 (Incident Handling), MITRE ATT&CK®, CVSS
 
 
 
@@ -66,7 +67,7 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 ---
 
 ## 📈 Key Learning Objectives
-* Analyzing network packets to identify signs of intrusion.
+* Analyzing network packets to identify signs of intrusion and protocol anomalies.
 * Configuring and monitoring Security Information and Event Management (SIEM) alerts.
-* Documenting incident timelines and "Lessons Learned" reports.
-* Categorizing security events using industry-standard schemas.
+* Applying the **Pyramid of Pain** to increase the technical cost for attackers.
+* Executing standardized **Incident Response Playbooks** to maintain SOC consistency.
