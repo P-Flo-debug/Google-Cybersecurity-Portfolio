@@ -51,6 +51,12 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Incident Handling` `Playbook Execution` `Ticket Documentation` `Phishing Analysis`
 * **[View Project Details](./project-06)**
 
+### 🚀 Project 7: Intrusion Detection with Suricata
+* **Goal:** Configure Suricata IDS to monitor network traffic using custom rules and analyze generated telemetry logs.
+* **Outcome:** Successfully triggered alerts using a custom signature, analyzed `fast.log` for quick alerts, and utilized `jq` to parse complex `eve.json` telemetry for deep-dive investigation.
+* **Skills:** `Intrusion Detection (IDS)` `Suricata` `Rule Writing` `JSON Parsing (jq)` `Network Telemetry`
+* **[View Project Details](./project-07)**
+
 *(More projects will be added as they are completed)*
 
 ---
