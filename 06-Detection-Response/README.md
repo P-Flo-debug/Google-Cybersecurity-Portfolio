@@ -57,7 +57,11 @@ This module focuses on the operational side of cybersecurity: the **Security Ope
 * **Skills:** `Intrusion Detection (IDS)` `Suricata` `Rule Writing` `JSON Parsing (jq)` `Network Telemetry`
 * **[View Project Details](./project-07)**
 
-*(More projects will be added as they are completed)*
+### 🚀 Project 8: SIEM Analysis with Wazuh
+* **Goal:** Use the Wazuh SIEM platform to investigate security events across multiple hosts and identify unauthorized access attempts.
+* **Outcome:** Ingested and queried over 100,000 log events. Successfully identified 376 failed SSH login attempts for the 'root' account on the company mail server using advanced search queries.
+* **Skills:** `SIEM` `Wazuh` `Log Aggregation` `Boolean Search Queries` `Incident Investigation`
+* **[View Project Details](./project-08)**
 
 ---
 
