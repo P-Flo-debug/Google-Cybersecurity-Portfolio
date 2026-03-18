@@ -11,5 +11,5 @@ This initial project focused on establishing a professional coding environment u
 ## Key Takeaways
 "Print statements are vital to display the information from running a program back to you in a logical, easy fashion. Comments are very important to keep track of why the code is written and so others can know what the purpose is of the code." — *Lab Reflection*
 
-## Files
-* `LAB_Activity_PracticeWritingPythonCode.ipynb`: The complete interactive notebook.
+## 🔗 Project Link
+* **[View Full Jupyter Notebook](./LAB_Activity_PracticeWritingPythonCode.ipynb)**
