@@ -19,9 +19,9 @@ Click on a project below to view the code and documentation:
     * **Goal:** Establish a professional coding environment and practice fundamental syntax for security documentation and program output.
     * **Key Tech:** Jupyter Notebooks, Python `print()`, code commenting (`#`), and Markdown formatting.
 
-* ### [Project 2: Parsing Security Logs with Regex](./Project-2-Log-Parser/)
-    * **Goal:** Search through large system logs to identify specific login attempts or suspicious patterns.
-    * **Key Tech:** Python `re` module, string manipulation, and list comprehension.
+* ### [Project 01: Managing Security Data with Variables](./Project-01-Security-Variables/)
+    * **Goal:** Use Python variables and data types to track user login attempts and access permissions.
+    * **Key Tech:** Integers, Strings, Booleans, Lists, and the `type()` function.
 
 * ### [Project 3: Algorithm for File Permissions](./Project-3-File-Permissions/)
     * **Goal:** Developing a logical flow to check and update user permissions across a directory.
