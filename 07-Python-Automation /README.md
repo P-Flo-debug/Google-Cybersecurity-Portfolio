@@ -15,9 +15,9 @@ This section of my Cybersecurity Portfolio focuses on using Python to streamline
 
 Click on a project below to view the code and documentation:
 
-* ### [Project 1: Automating File Updates (Access Lists)](./Project-1-Access-Lists/)
-    * **Goal:** Create a script that removes unauthorized IP addresses from a "allow" list automatically.
-    * **Key Tech:** Python `with open()`, `.split()`, and `.remove()`.
+* ### [Project 0: Foundations of Python for Security](./Project-0-Python-Foundations/)
+    * **Goal:** Establish a professional coding environment and practice fundamental syntax for security documentation and program output.
+    * **Key Tech:** Jupyter Notebooks, Python `print()`, code commenting (`#`), and Markdown formatting.
 
 * ### [Project 2: Parsing Security Logs with Regex](./Project-2-Log-Parser/)
     * **Goal:** Search through large system logs to identify specific login attempts or suspicious patterns.
