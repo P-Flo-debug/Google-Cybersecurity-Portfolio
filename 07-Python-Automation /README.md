@@ -23,9 +23,9 @@ Click on a project below to view the code and documentation:
     * **Goal:** Use Python variables and data types to track user login attempts and access permissions.
     * **Key Tech:** Integers, Strings, Booleans, Lists, and the `type()` function.
 
-* ### [Project 3: Algorithm for File Permissions](./Project-3-File-Permissions/)
-    * **Goal:** Developing a logical flow to check and update user permissions across a directory.
-    * **Key Tech:** Functions, conditional logic, and the `os` module.
+* ### [Project 02: Automated Access Control with Conditionals](./Project-02-Conditional-Logic/)
+    * **Goal:** Create a decision-making algorithm to verify user approvals and organization login hours.
+    * **Key Tech:** Python `if`, `elif`, `else` statements, and Logical Operators (`and`, `or`).
 
 ---
 
