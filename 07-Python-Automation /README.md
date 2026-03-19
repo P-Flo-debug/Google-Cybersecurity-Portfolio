@@ -26,6 +26,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 02: Automated Access Control with Conditionals](./Project-02-Conditional-Logic/)
     * **Goal:** Create a decision-making algorithm to verify user approvals and organization login hours.
     * **Key Tech:** Python `if`, `elif`, `else` statements, and Logical Operators (`and`, `or`).
+ 
+* ### [Project 3: Iterative Automation with Loops](./Project-03-Python-Loops/)
+    * **Goal:** Automate repetitive security tasks, such as scanning IP addresses and generating employee IDs, using iterative logic.
+    * **Key Tech:** Python `for` loops, `while` loops, and the `range()` function.
 
 ---
 
