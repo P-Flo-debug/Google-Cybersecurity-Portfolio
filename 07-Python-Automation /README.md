@@ -33,7 +33,4 @@ Click on a project below to view the code and documentation:
 
 ---
 
-## 📊 Programming Workflow
 
-
-> **Note:** These scripts are designed for educational purposes and demonstrate the ability to replace manual, error-prone tasks with efficient code.
