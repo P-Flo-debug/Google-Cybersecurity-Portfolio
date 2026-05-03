@@ -30,6 +30,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 3: Iterative Automation with Loops](./Project-03-Python-Loops/)
     * **Goal:** Automate repetitive security tasks, such as scanning IP addresses and generating employee IDs, using iterative logic.
     * **Key Tech:** Python `for` loops, `while` loops, and the `range()` function.
+ 
+* ### [Project 4: Modular Security Tools with Functions](./Project-04-Python-Functions/)
+    * **Goal:** Create reusable code blocks to automate security alerts and format user data for reporting.
+    * **Key Tech:** Python `def` keyword, function calling, and string concatenation.
 
 ---
 
