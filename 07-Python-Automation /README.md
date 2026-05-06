@@ -34,6 +34,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 4: Modular Security Tools with Functions](./Project-04-Python-Functions/)
     * **Goal:** Create reusable code blocks to automate security alerts and format user data for reporting.
     * **Key Tech:** Python `def` keyword, function calling, and string concatenation.
+ 
+* ### [Project 5: Advanced Functions and Log Analysis](./Project-05-Advanced-Functions/)
+    * **Goal:** Utilize built-in Python functions to analyze login data and build custom functions that calculate and return security metrics.
+    * **Key Tech:** Built-in functions (`max()`, `sorted()`), custom parameters, the `return` statement, and conditional logic.
 
 ---
 
