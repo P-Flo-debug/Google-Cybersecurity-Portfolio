@@ -46,6 +46,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 7: Developing a Security Access Algorithm](./Project-07-Security-Algorithm/)
     * **Goal:** Automate the verification of approved users and their assigned devices using synchronized data structures and nested conditional logic.
     * **Key Tech:** Python lists, `.append()`, `.remove()`, `.index()`, and nested `if/else` statements within custom functions.
+ 
+* ### [Project 8: Parsing Security Logs with Regular Expressions](./Project-08-Regular-Expressions/)
+    * **Goal:** Automate the extraction of vulnerable device IDs and valid IP addresses from raw security logs using pattern matching.
+    * **Key Tech:** Python `re` module, `re.findall()`, and Regex symbols (`\w`, `\d`, `+`, `{x,y}`).
 
 ---
 
