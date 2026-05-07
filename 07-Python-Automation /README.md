@@ -38,6 +38,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 5: Advanced Functions and Log Analysis](./Project-05-Advanced-Functions/)
     * **Goal:** Utilize built-in Python functions to analyze login data and build custom functions that calculate and return security metrics.
     * **Key Tech:** Built-in functions (`max()`, `sorted()`), custom parameters, the `return` statement, and conditional logic.
+ 
+* ### [Project 6: String Manipulation for Security Data](./Project-06-String-Manipulation/)
+    * **Goal:** Standardize employee IDs and extract specific components from device IDs and URLs using string operations.
+    * **Key Tech:** Type conversion (`str()`), string slicing (`[start:stop]`), concatenation (`+`), and the `.index()` method.
 
 ---
 
