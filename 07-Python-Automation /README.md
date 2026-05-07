@@ -42,6 +42,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 6: String Manipulation for Security Data](./Project-06-String-Manipulation/)
     * **Goal:** Standardize employee IDs and extract specific components from device IDs and URLs using string operations.
     * **Key Tech:** Type conversion (`str()`), string slicing (`[start:stop]`), concatenation (`+`), and the `.index()` method.
+ 
+* ### [Project 7: Developing a Security Access Algorithm](./Project-07-Security-Algorithm/)
+    * **Goal:** Automate the verification of approved users and their assigned devices using synchronized data structures and nested conditional logic.
+    * **Key Tech:** Python lists, `.append()`, `.remove()`, `.index()`, and nested `if/else` statements within custom functions.
 
 ---
 
