@@ -3,8 +3,9 @@
 ## Project Overview
 In this final project for the Python course, I developed a complete algorithm to automate the updating of network access control lists. The script is designed to open a text file containing approved IP addresses, compare it against a list of IP addresses flagged for removal, dynamically update the data, and overwrite the original file with the newly secured list. 
 
-## 🔗 Project Link
-* **[View Full Jupyter Notebook](./Activity_Create_another_algorithm.ipynb)**
+## 🔗 Project Links
+* **[View Full Python Code (Jupyter Notebook)](./Activity_Create_another_algorithm.ipynb)**
+* **[View Executive Summary (PDF Write-up)](./Algorithm_for_file_updates_in_Python.pdf)**
 
 ## Tasks Completed
 * **Data Parsing:** Opened a text file (`allow_list.txt`) and used the `.split()` method to convert the raw string data into a workable Python list.
