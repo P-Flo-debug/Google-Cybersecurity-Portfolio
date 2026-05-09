@@ -54,6 +54,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 9: File Handling and Log Parsing](./Project-09-File-Handling/)
     * **Goal:** Import, read, modify, and parse text-based security log files to automate access control lists.
     * **Key Tech:** Python `with open()`, file handling modes (`"r"`, `"w"`, `"a"`), `.read()`, `.write()`, and `.split()`.
+ 
+* ### [Project 10: Automating Access Control Lists](./Project-10-Access-Control-Algorithm/)
+    * **Goal:** Develop a reusable Python algorithm that parses a text-based allow list, identifies unauthorized IP addresses, and automatically rewrites the updated security file.
+    * **Key Tech:** File handling (`"r"`, `"w"`), string-to-list conversion (`.split()`, `.join()`), and encapsulating logic into user-defined functions.
 
 ---
 
