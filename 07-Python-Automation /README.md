@@ -58,6 +58,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 10: Automating Access Control Lists](./Project-10-Access-Control-Algorithm/)
     * **Goal:** Develop a reusable Python algorithm that parses a text-based allow list, identifies unauthorized IP addresses, and automatically rewrites the updated security file.
     * **Key Tech:** File handling (`"r"`, `"w"`), string-to-list conversion (`.split()`, `.join()`), and encapsulating logic into user-defined functions.
+ 
+* ### [Project 11: Debugging Python Security Scripts](./Project-11-Debugging-Python/)
+    * **Goal:** Identify, troubleshoot, and resolve syntax, logic, and exception errors in automated security scripts to ensure smooth execution.
+    * **Key Tech:** Python traceback analysis, syntax correction, and logical troubleshooting.
 
 ---
 
