@@ -50,6 +50,10 @@ Click on a project below to view the code and documentation:
 * ### [Project 8: Parsing Security Logs with Regular Expressions](./Project-08-Regular-Expressions/)
     * **Goal:** Automate the extraction of vulnerable device IDs and valid IP addresses from raw security logs using pattern matching.
     * **Key Tech:** Python `re` module, `re.findall()`, and Regex symbols (`\w`, `\d`, `+`, `{x,y}`).
+ 
+* ### [Project 9: File Handling and Log Parsing](./Project-09-File-Handling/)
+    * **Goal:** Import, read, modify, and parse text-based security log files to automate access control lists.
+    * **Key Tech:** Python `with open()`, file handling modes (`"r"`, `"w"`, `"a"`), `.read()`, `.write()`, and `.split()`.
 
 ---
 
